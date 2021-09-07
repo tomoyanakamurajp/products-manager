@@ -226,14 +226,14 @@ return [
              * The keys host, port, timeout, username, password, client and tls
              * are used in SMTP transports
              */
-            'host' => 'ssl://sv8441.xserver.jp',
+            'host' => 'ssl://svXXXX.xserver.jp',
             'port' => 465,
             'timeout' => 30,
             /*
              * It is recommended to set these options through your environment or app_local.php
              */
-            'username' => 'support_not_reply@qure-technologies.co.jp',
-            'password' => 'iq#9z4kR',
+            'username' => 'XXXX@XXXXX',
+            'password' => 'XXXXX',
             'client' => null,
             'tls' => false,
             'url' => env('EMAIL_TRANSPORT_DEFAULT_URL', null),
@@ -290,8 +290,8 @@ return [
             'driver' => 'Cake\Database\Driver\Mysql',
             'persistent' => false,
             'host' => 'localhost',
-            'username' => 'root',
-            'password' => 'SuperView251',
+            'username' => 'cakephp',
+            'password' => 'password',
             'database' => 'products_manager',
             'encoding' => 'utf8',
             'timezone' => 'UTC',
