@@ -2513,3 +2513,34 @@ Request URL: /product-ledgers?date=&product_code=100-A&in_out=
 Referer URL: http://localhost/products-manager/product-ledgers
 
 
+2021-09-06 10:27:23 Error: [Cake\Http\Exception\MissingControllerException] Controller class ProductLedges could not be found. in C:\xampp\htdocs\products-manager\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 226
+Exception Attributes: array (
+  'class' => 'ProductLedges',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\products-manager\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\xampp\htdocs\products-manager\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\products-manager\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\products-manager\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\products-manager\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\products-manager\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\products-manager\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\products-manager\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\products-manager\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\products-manager\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\products-manager\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\products-manager\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\products-manager\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\products-manager\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\products-manager\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\products-manager\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\products-manager\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\products-manager\webroot\index.php:40
+
+Request URL: /
+Referer URL: http://localhost/
+
+
